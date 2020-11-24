@@ -10,6 +10,7 @@ namespace Online_Flight_Booking_Final.Migrations.Online_Flight_Identity
             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
+
                 {
                     Id = table.Column<string>(nullable: false),
                     Name = table.Column<string>(maxLength: 256, nullable: true),
